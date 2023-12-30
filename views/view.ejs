@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Posts</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+        <div id="viewdiv">
+        <h2 id="viewuname" class="view" style="background-color: #495057"> User Name: @<%= chater.username  %></h2>
+        <h3 id="viewuid" class="view"> User ID: <%= chater.id %> </h3>
+        <div id="viewuchat" class="view">  <%= chater.chat  %></div>
+        <h3 id="viewunumber" class="view"> Phone Number: <%= chater.phoneno %></h3>
+        <h3 id="viewulocation" class="view"> Location: <%= chater.location %></h3>
+        </div>
+        <button type="button" id="newpostbutton" class="button" onclick="location.href='http://localhost:8080/chaters'">Main Page</button>
+        
+</body>
+</html>

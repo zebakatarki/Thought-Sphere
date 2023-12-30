@@ -1,2 +1,2 @@
 # Thought-Sphere
-"Thought Sphere" is a Web Appliation.
+"Thought Sphere" is a Web Appliation..

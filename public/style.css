@@ -1,0 +1,297 @@
+
+.main{
+    background-color: white;
+    width: 700px;
+    height: 245px;
+    padding: 2px;
+    margin: 10px;
+    border: 3px solid black;
+    border-radius: 19px;
+}
+
+#mainheading{
+    margin: 13px;
+    color:black ;
+}
+
+/* .divs{
+    background-color:#6c757d;
+    color: white;
+    
+} */
+
+#cname{
+    margin: 4px;
+    background-color: #495057;
+    
+    color: white;
+}
+
+#cchat{
+    height: 100px;
+}
+
+#textarea{
+    height:93px;
+    width: 682px;
+    color: white;
+    background-color: #495057;
+    border: 3px solid black;
+    margin: 4px;
+    font-size: 15px;
+}
+
+#buttonsdiv{
+    margin: 5px;
+}
+
+.button{
+    background-color:black;
+    border: 1px solid white;
+    color: white;
+    height: 35px;
+    width: 100px;
+    margin: 2px;
+}
+
+
+/* new.ejs */
+#newinputdiv{
+    background-color: white;
+    width: 700px;
+    height: 200px;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+.newinput{
+    background-color:#495057;
+    color: white;
+    border: 2px solid black;
+}
+
+#newuname{
+    height: 25px;
+    width: 550px;
+    margin: 4px;
+}
+
+#newuchat{
+    margin: 5px;
+    height:93px;
+    width: 550px;
+    background-color:#495057;
+    color: white;
+    border: 2px solid black;
+}
+
+#newusubmit{
+    height: 35px;
+    width: 120px;
+    background-color: black;
+    border: 2px solid white;
+    color:white;
+    margin: 4px;  
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+#newlocation{
+    height: 25px;
+    width: 550px;
+    margin: 4px;
+}
+
+#newnumber{
+    height: 25px;
+    width: 550px;
+    margin: 4px;
+}
+
+#newpost{
+    background-color:white;
+    border: 3px solid black;
+    width: 566px;
+}
+
+#newpostbutton{
+    margin: 10px;
+    height: 37px;
+    width:  150px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 10px;
+    color:white;
+    /* font-weight: bold; */
+    font-size: 16px;
+}
+
+#newpassword{
+    height: 25px;
+    width: 550px;
+    margin: 4px;
+}
+
+/* idconfirm.ejs */
+#idconfirm{
+    height: 140px;
+    background-color: #495057;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 2px;
+    width: 610px;
+    margin: auto;
+}
+
+#idconfirmheading{
+    color:black;
+}
+
+#idconfirminp{
+    height: 28px;
+    width: 420px;
+    background-color: black;
+    border: 1px solid white;
+    color:white;
+    border-radius: 4px;
+}
+
+#idconfirmbutton{
+    height: 38px;
+    width: 100px;
+    background-color: black;
+    border: 1px solid white;
+    color:white;
+    border-radius: 4px;
+    margin-left: 240px;
+    
+}
+
+#Goback{
+    height: 45px;
+    width: 90px;
+    background-color: black;
+    border: 2px solid white;
+    color:white;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+
+#gobackdiv{
+    border-radius: 10px;
+    margin: auto;
+    padding: 2px;
+    background-color: #495057;
+    border: 3px solid black;
+    height: 170px;
+    width: 420px;
+}
+
+#gobackheading{
+    margin-left: 9px;
+}
+
+#gobackbutton{
+    margin-left: 130px;
+    width: 160px;
+    height: 40px;
+    font-size: 16px;
+}
+
+/* view.ejs */
+#viewdiv{
+    background-color: white;
+    border: 3px solid black;
+    width:800px;
+    height: 270px;
+    padding: 2px;
+    border-radius: 10px;
+    
+}
+
+.view{
+    background-color: #495057;
+    color: white;
+    border: 2px solid black;
+    margin: 5px;
+    
+}
+
+#viewuchat{
+    height: 126px;
+}
+#viewuname{
+    background-color: black;
+    color: white;
+    margin: 5px;
+}
+
+/* addcontent.ejs */
+#update{
+    background-color: white;
+    border: 3px solid black;
+    padding: 7px;
+    width: 466px;
+    border-radius: 15px;
+}
+
+#updatechat{
+    height: 180px;
+    width:450px;
+    background-color: #495057;
+    border: 2px solid black;
+    margin: 4px;
+    color: white;
+}
+
+#password{
+    width:450px;
+    height:25px;
+    margin: 4px;
+    background-color: #495057;
+    border: 2px solid black;
+    color: white;
+}
+
+#updatesubmit{
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin: 4px;
+    height: 35px;
+    width: 80px;
+}
+
+#deleteconfirm{
+    margin: auto;
+    background-color: #495057;
+    border: 3px solid black;
+    height: 180px;
+    width: 375px;
+    border-radius: 10px;
+}
+
+#hidden{
+    height: 2px;
+}
+#deleteconfirmheading{
+    margin-left:17px;
+}
+#deleteconfirmyes{
+    margin-left: 55px;
+    margin-right: 50px;
+}
+#deleteconfirmcancel{
+    margin-left: 50px;
+}
+
+.eyeicon{
+    position: absolute;
+}
+
+#hide1{
+    display: none;
+}

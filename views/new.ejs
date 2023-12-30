@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a New Post</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<!-- To remove the spinner from number input -->
+<style>
+    input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+
+}
+</style>
+<style>
+    ::placeholder{
+        color: black;
+    }
+</style>
+
+<body>
+    <h1>Create New Post!!</h1>
+    <form method="post" action="/chaters">
+        <div id="newpost">
+        <input placeholder="Enter Username" name="username" id="newuname" class="newinput"><br>
+        <textarea placeholder="Add Your Thought Here!!" name="chat" id="newuchat" class="newinput"></textarea><br>
+        <input type="number" id="newnumber"  inputmode="numeric" placeholder="Enter Phone Number" name="phoneno" class="newinput"><br>
+        <input type="text" id="newlocation" placeholder="Enter Location" name="location" class="newinput"><br>
+        <input type="password" id="newpassword" placeholder="Enter Password" name="password" class="newinput" ><br>
+        <button id="newusubmit" style="border: white 1px solid;">Submit</button>
+        </div>
+    
+</body>
+</html>

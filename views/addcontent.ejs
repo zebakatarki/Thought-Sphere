@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content Adding</title>
+    <link rel="stylesheet" href="/style.css">
+    
+</head>
+<style>
+    ::placeholder{
+        color: black;
+    }
+</style>
+<body>
+    
+    <form method="post" action="/chaters/editpwerror?_method=PATCH">
+    <h1>Edit Your Thought</h1>
+    <div id="update">
+    <textarea name="content" id="updatechat"><%= chater.chat %></textarea><br>
+    <input type="password" id="password" name="password" placeholder="Enter Password">
+    <br>
+    <button type="submit" id="updatesubmit">Submit</button>
+   
+    </div>
+    </form>
+</body>
+</html>
